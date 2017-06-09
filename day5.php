@@ -81,6 +81,7 @@ button{
       if (isset($_SESSION['errormsj'])) { ?>
         <h1><?= $_SESSION['errormsj'] ?></h1>
         <?php unset($_SESSION['errormsj']);
+        echo "";
         # code...
       }
        ?>
